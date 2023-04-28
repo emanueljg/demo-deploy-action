@@ -22,7 +22,7 @@ jobs:
       - name: npm install
         run: npm install
       - name: fire up backend 
-        run: nohup npm run backend & exit
+        run: nohup npm start &
       # - name: newman test
       #   run: npm test
       - name: gui testing
