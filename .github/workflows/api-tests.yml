@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version}}
       - name: npm install
-        run: npm ci
+        run: npm install
       - name: fire up backend 
         run: nohup npm run backend & exit
       # - name: newman test
