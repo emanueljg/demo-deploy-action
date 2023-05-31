@@ -26,4 +26,4 @@ jobs:
           # lumia is a self-defined systemd service 
           # see https://git.emanueljg.com/ejg/nixos/src/branch/master/hosts/fenix/lumia.nix
           script: |
-            systemctl restart lumia
+            sudo systemctl restart lumia
